@@ -11,6 +11,10 @@
 	font-family: 'ヒラギノ角ゴ StdN', 'Hiragino Kaku Gothic StdN', 'Osaka', 'Meiryo UI', 'Yu Gothic UI', 'Helvetica', 'Arial Black', sans-serif;
 }
 
+body {
+	background-color: var(--color_background);
+}
+
 a:link {
 	color: var(--color_link);
 }
