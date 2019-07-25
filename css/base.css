@@ -1,0 +1,33 @@
+:root {
+	/* 色の設定 */
+	--color_text: #111111;
+	--color_background: #CCCCCC;
+	--color_accent: #AAAAAA;
+	--color_link: #EEEEFF;
+	--color_grass: #CCCCCCAC;
+}
+
+* {
+	font-family: 'ヒラギノ角ゴ StdN', 'Hiragino Kaku Gothic StdN', 'Osaka', 'Meiryo UI', 'Yu Gothic UI', 'Helvetica', 'Arial Black', sans-serif;
+}
+
+body {
+	background-color: var(--color_background);
+}
+
+a:link {
+	color: var(--color_link);
+}
+
+a:visited {
+	color: var(--color_link);
+}
+
+a:hover {
+	color: var(--color_link);
+	opacity: 0.8;
+}
+
+a:active {
+	color: var(--color_link);
+}
