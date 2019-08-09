@@ -8,5 +8,5 @@
 ## 詳細
 
 ## メモ
-テストサーバー：http://localhost:1945  
-
+テストサーバー： http://localhost:1945  
+2018年度： https://github.com/FUN-AI/miraisai_menu_2018
