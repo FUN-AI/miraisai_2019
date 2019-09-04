@@ -1,0 +1,27 @@
+#top { grid-area: top; }
+#menu { grid-area: menu; }
+#main { grid-area: main; }
+#foot { grid-area: foot; }
+
+@media (min-width: 1000px) {
+    body {
+        display: grid;
+        position: relative;
+        grid-template-areas: "top top" "menu main" "foot foot";
+        grid-template-columns: 256px 1fr;
+        grid-template-rows: 128px 1fr 32px;
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+
+}
+
+@media (max-width: 599px) {
+
+}
+
+body {
+    margin: 0;
+}
