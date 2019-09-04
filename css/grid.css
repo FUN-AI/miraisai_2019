@@ -7,19 +7,22 @@
     body {
         display: grid;
         position: relative;
-        grid-template-areas: "top top" "menu main" "foot foot";
-        grid-template-columns: 256px 1fr;
-        grid-template-rows: 128px 1fr 32px;
+        grid-template-areas: "top top top" ". menu ." ". main ." "foot foot foot";
+        grid-template-columns: auto 1000px auto;
+        grid-template-rows: 96px 48px 1fr 32px;
         min-height: 100vh;
     }
 }
 
-@media (min-width: 600px) and (max-width: 999px) {
-
-}
-
-@media (max-width: 599px) {
-
+@media (max-width: 999px) {
+    body {
+        display: grid;
+        position: relative;
+        grid-template-areas: "top top top" ". menu ." ". main ." "foot foot foot";
+        grid-template-columns: 0 1fr 0;
+        grid-template-rows: 96px 48px 1fr 32px;
+        min-height: 100vh;
+    }
 }
 
 body {

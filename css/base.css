@@ -4,7 +4,7 @@
 	--color_background: #EEEEEE;
 	--color_background2: #CCCCCC;
 	--color_accent: #AAAAAA;
-	--color_link: #EEEEFF;
+	--color_link: #4444FF;
 	--color_grass: #CCCCCCAC;
 }
 
@@ -15,6 +15,10 @@
 
 body {
 	background-color: var(--color_background);
+}
+
+p {
+	padding: 1em;
 }
 
 a:link {
