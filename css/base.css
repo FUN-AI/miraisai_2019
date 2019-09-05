@@ -21,6 +21,13 @@ p {
 	padding: 1em;
 }
 
+img {
+	margin-top: 0.5em;
+	margin-right: 0.5em;
+	max-width: 33%;
+	border-radius: 6px;
+}
+
 a:link {
 	color: var(--color_link);
 }
