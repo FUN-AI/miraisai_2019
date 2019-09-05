@@ -1,0 +1,30 @@
+#top { grid-area: top; }
+#menu { grid-area: menu; }
+#main { grid-area: main; }
+#foot { grid-area: foot; }
+
+@media (min-width: 1000px) {
+    body {
+        display: grid;
+        position: relative;
+        grid-template-areas: "top top top" ". menu ." ". main ." "foot foot foot";
+        grid-template-columns: auto 1000px auto;
+        grid-template-rows: 96px 48px 1fr 32px;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 999px) {
+    body {
+        display: grid;
+        position: relative;
+        grid-template-areas: "top top top" ". menu ." ". main ." "foot foot foot";
+        grid-template-columns: 0 1fr 0;
+        grid-template-rows: 96px 48px 1fr 32px;
+        min-height: 100vh;
+    }
+}
+
+body {
+    margin: 0;
+}
