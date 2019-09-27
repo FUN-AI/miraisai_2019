@@ -13,5 +13,5 @@ GitHub： https://github.com/FUN-AI/miraisai2019_tenji
 
 ## メモ
 テストサーバー： http://localhost:1945  
-2018年度： https://github.com/FUN-AI/miraisai_menu_2018  
+2018年度： https://github.com/FUN-AI/miraisai_2018_menu  
 2019年度： https://github.com/FUN-AI/miraisai_2019
