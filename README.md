@@ -5,7 +5,6 @@
 開催：2019/10/12-2019/10/13  
 
 ## 展示概要
-*展示班の方おねがいします。*  
 GitHub： https://github.com/FUN-AI/miraisai2019_tenji  
 
 ## 模擬店メニュー
