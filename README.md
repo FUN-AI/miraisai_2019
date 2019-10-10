@@ -8,7 +8,8 @@
 GitHub： https://github.com/FUN-AI/miraisai2019_tenji  
 
 ## 模擬店メニュー
-*模擬店班の方おねがいします。*  
+お菓子（Android）つかみ取り...¥300-  
+ラズベリーパイ（2個）...¥300-  
 
 ## メモ
 テストサーバー： http://localhost:1945  
