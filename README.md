@@ -10,6 +10,7 @@ GitHub： https://github.com/FUN-AI/miraisai2019_tenji
 ## 模擬店メニュー
 お菓子（Android）つかみ取り...¥300-  
 ラズベリーパイ（2個）...¥300-  
+コーヒー...調整中  
 
 ## メモ
 テストサーバー： http://localhost:1945  
